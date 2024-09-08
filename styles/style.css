@@ -27,16 +27,12 @@ h3 {
 
 section {
     padding: 0 125px 150px 125px;
-
 }
 
 .container {
     width: 1400px;
     margin: 0 auto;
     background: #fff;
-}
-
-.header {
 }
 
 .header__title {
@@ -50,7 +46,7 @@ section {
     position:relative;
     width: 1150px;
     height: 500px;
-    background-image: url(images/1.jpg);
+    background-image: url(/resources/1.jpg);
 }
 
 .header__text {
@@ -58,16 +54,11 @@ section {
     left: 40px;
     bottom: 40px;
     width: 430px;
-    line-height: 27.32px;
     color: white;
+    line-height: 27.32px;
     font-size: 20px;
 }
 /* Header */
-
-.about {
-}
-
-.about__title {}
 
 .about__info {
     max-width: 1048px;
@@ -78,9 +69,9 @@ section {
 
 .about__btn {
     padding: 20px 40px;
+    border-radius: 5px;
     display: inline-block;
     text-decoration: none;
-    border-radius: 5px;
     background: #ad1818;
     color: #fff;
     line-height: 27.32px;
@@ -88,9 +79,6 @@ section {
     font-family: inherit;
 }
 /* About */
-
-.projects {
-}
 
 .project-list__img {
     width: 1150px;
@@ -103,8 +91,8 @@ section {
 }
 
 .project-list__link {
-    display: inline-block;
     margin-bottom: 90px;
+    display: inline-block;
     text-decoration: none;
     color: #AD1818;
     font-size: 20px;
@@ -115,9 +103,9 @@ section {
 .projects__btn {
     width: 100%;
     padding: 56px 0;
-    display: block;
     border: 1px solid #AD1818;
     border-radius: 5px;
+    display: block;
     background: #fff;
     color: #AD1818;
     text-decoration: none;
@@ -136,8 +124,8 @@ section {
 
 .services {
     padding: 0;
-    color: #fff;
     background: #121212;
+    color: #fff;
 }
 
 .services__container-black {
@@ -153,12 +141,9 @@ section {
 }
 
 .service-list__img {
-    height: 270px;
     width: 1150px;
+    height: 270px;
     margin-bottom: 15px;
 }
 
 /* Services */
-
-
-
