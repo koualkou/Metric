@@ -50,7 +50,6 @@ section {
     margin-bottom: 150px;
     background-image: url(Metric/images/1.jpg);
     background-image: url(/Metric/images/1.jpg);
-    background-image: url(./Metric/images/1.jpg);
 }
 
 .header__text {
