@@ -236,7 +236,7 @@ a {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../resources/full-screen.jpg);
+    background-image: url(../images/full-screen.jpg);
     background-position: 50%;
 }
 
