@@ -274,7 +274,7 @@ a {
     width: 24px;
     height: 24px;
     content: '';
-    background-image: url(../resources/iphone-icon.png);
+    background-image: url(../images/iphone-icon.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
