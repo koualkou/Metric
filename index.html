@@ -17,21 +17,21 @@
         <div class="container">
             <div class="header__wrapper">
                 <a href="#" class="header-logo">
-                    <img class="logo" src="images/logo.png" alt="logo Метрика">
+                    <img class="logo" src="resources/logo.png" alt="logo Метрика">
                 </a>
                 <nav class="nav">
                     <ul class="nav__lists">
                         <li class="nav__list">
-                            <a class="nav__link" href="#about">о нас</a>
+                            <a class="nav__link nav__link_underlined" href="#about">о нас</a>
                         </li>
                         <li class="nav__list">
-                            <a class="nav__link" href="#projects">проекты</a>
+                            <a class="nav__link nav__link_underlined" href="#projects">проекты</a>
                         </li>
                         <li class="nav__list">
-                            <a class="nav__link" href="#services">услуги</a>
+                            <a class="nav__link nav__link_underlined" href="#services">услуги</a>
                         </li>
                         <li class="nav__list">
-                            <a class="nav__link" href="#contacts">контакты</a>
+                            <a class="nav__link nav__link_underlined" href="#contacts">контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -47,7 +47,7 @@
                     Современные и стильные интерьеры для комфортной жизни
                 </h1>
                 <div class="interior__wrapper">
-                    <img class="interior__img" src="images/1.jpg" alt="Серый стул">
+                    <img class="interior__img" src="resources/1.jpg" alt="Серый стул">
                     <p class="interior__text">
                         Мы - команда квалифицированных дизайнеров и архитекторов,
                         занимающихся разработкой и реализацией дизайн-проектов
@@ -74,17 +74,17 @@
                 <h2 class="projects__title">проекты</h2>
                 <ul class="projects-lists">
                     <li class="project-list">
-                        <img class="project-list__img" src="images/2.jpg" alt="Коричневый диван">
+                        <img class="project-list__img" src="resources/2.jpg" alt="Коричневый диван">
                         <h3 class="project-list__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                         <a class="project-list__link" href="#">Подробнее →</a>
                     </li>
                     <li class="project-list">
-                        <img class="project-list__img" src="images/3.jpg" alt="Журнальный стол">
+                        <img class="project-list__img" src="resources/3.jpg" alt="Журнальный стол">
                         <h3 class="project-list__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                         <a class="project-list__link" href="#">Подробнее →</a>
                     </li>
                     <li class="project-list">
-                        <img class="project-list__img" src="images/4.jpg" alt="Обеденный стол">
+                        <img class="project-list__img" src="resources/4.jpg" alt="Обеденный стол">
                         <h3 class="project-list__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                         <a class="project-list__link" href="#">Подробнее →</a>
                     </li>
@@ -98,19 +98,19 @@
                 <h2 class="services__title">Услуги</h2>
                 <ul class="services-lists">
                     <li class="service-list">
-                        <img class="service-list__img" src="images/5.jpg" alt="Чертёж">
+                        <img class="service-list__img" src="resources/5.jpg" alt="Чертёж">
                         <h3 class="service-list__title">Планировочное решение — от 2500₽/м²</h3>
                     </li>
                     <li class="service-list">
-                        <img class="service-list__img" src="images/6.jpg" alt="Образцы цветов Pantone">
+                        <img class="service-list__img" src="resources/6.jpg" alt="Образцы цветов Pantone">
                         <h3 class="service-list__title">Дизайн-проект — от 3000₽/м²</h3>
                     </li>
                     <li class="service-list">
-                        <img class="service-list__img" src="images/7.jpg" alt="Рабочее место архитектора">
+                        <img class="service-list__img" src="resources/7.jpg" alt="Рабочее место архитектора">
                         <h3 class="service-list__title">Авторский надзор — от 30 000₽ в месяц</h3>
                     </li>
                     <li class="service-list">
-                        <img class="service-list__img" src="images/8.jpg" alt="Склад">
+                        <img class="service-list__img" src="resources/8.jpg" alt="Склад">
                         <h3 class="service-list__title">Комплектация — 5% от стоимости спецификации</h3>
                     </li>
                 </ul>
@@ -127,10 +127,14 @@
             <div class="container">
                 <div class="contacts__wrapper">
                     <h2 class="contacts__text">контакты</h2>
-                    <p class="contacts__links">
-                        <a class="contacts__link-nubmer" href="tel:+79358954535">+7 935 895-45-35</a>
-                        <a class="contacts__link-mail" href="mailto:hello@mail.com">hello@mail.com</a>
-                    </p>
+                    <ul class="contacts__lists">
+                        <li class="contacts__list">
+                            <a class="contacts__link-number" href="tel:+79358954535">+7 935 895-45-35</a>
+                        </li>
+                        <li class="contacts__list">
+                            <a class="contacts__link-mail" href="mailto:hello@mail.com">hello@mail.com</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -141,22 +145,24 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <ul class="footer__lists">
-                    <li class="footer__list">
-                        <a class="footer__link" href="#about">о нас</a>
-                    </li>
-                    <li class="footer__list">
-                        <a class="footer__link" href="#projects">проекты</a>
-                    </li>
-                    <li class="footer__list">
-                        <a class="footer__link" href="#services">услуги</a>
-                    </li>
-                    <li class="footer__list">
-                        <a class="footer__link" href="#contacts">контакты</a>
-                    </li>
-                </ul>
-                <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+                <nav class="nav">
+                    <ul class="nav__lists">
+                        <li class="nav__list">
+                            <a class="nav__link nav__link_transparent" href="#about">о нас</a>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link nav__link_transparent" href="#projects">проекты</a>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link nav__link_transparent" href="#services">услуги</a>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link nav__link_transparent" href="#contacts">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+            <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
         </div>
 
     </footer>
