@@ -44,6 +44,7 @@ a {
 
 .header {
     padding: 33px 0 70px 0;
+    color: #121212;
 }
 
 .header__wrapper {
@@ -52,7 +53,15 @@ a {
 }
 
 .header-logo {
+    width: 127px;
+    height: 22px;
     display: inline-block;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .nav__lists {
@@ -62,10 +71,10 @@ a {
 .nav__list {
     position: relative;
     margin-right: 58px;
+    display: inline-block;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
-    display: inline-block;
 }
 
 .nav__list:last-child {
@@ -75,10 +84,10 @@ a {
 .nav__link {
     text-transform: uppercase;
     text-decoration: none;
-    color: #121212;
+    color: inherit;
 }
 
-.nav__link:hover:after {
+.nav__link_underlined:hover:after {
     position: absolute;
     bottom: -2px;
     width: 100%;
@@ -92,6 +101,10 @@ a {
 
 /* Nav */
 
+.interior {
+    padding-bottom: 151px;
+}
+
 .interior__title {
     width: 956px;
     margin-bottom: 30px;
@@ -102,38 +115,44 @@ a {
 
 .interior__wrapper {
     position: relative;
+    height: 500px;
 }
 
 .interior__img {
-    width: 100%;
-    margin-bottom: 148px;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 .interior__text {
-    position:absolute;
-    top: 379px;
+    position: absolute;
     left: 40px;
+    bottom: 40px;
     width: 430px;
-    color: white;
     font-size: 20px;
     line-height: 27.32px;
+    color: #fff;
 
 }
 /* Interior */
+
+.about {
+    margin-bottom: 150px;
+}
 
 .about__title {
     margin-bottom: 30px;
 }
 
 .about__info {
+    padding-left: 3px;
     max-width: 1048px;
-    margin-bottom: 26px;
+    margin-bottom: 27px;
     font-size: 45px;
     line-height: 61.47px;
 }
 
 .about__btn {
-    margin-bottom: 151px;
     padding: 20px 41px;
     border-radius: 5px;
     display: inline-block;
@@ -146,17 +165,22 @@ a {
 }
 /* About */
 
+.projects {
+    margin-bottom: 150px;
+}
+
 .projects__title {
     margin-bottom: 30px;
 }
 
 .project-list__img {
-    width: 100%;
+    height: 100%;
+    object-fit: cover;
     margin-bottom: 16px;
 }
 
 .project-list__title {
-    margin-bottom: 16px;
+    margin-bottom: 17px;
     line-height: 36px;
 }
 
@@ -171,12 +195,11 @@ a {
 }
 
 .project-list__link:last-child {
-    margin-bottom: 90px;
+    margin-bottom: 89px;
 }
 
 .projects__btn {
     width: 100%;
-    margin-bottom: 150px;
     padding: 56px 0;
     border: 1px solid #AD1818;
     border-radius: 5px;
@@ -198,7 +221,7 @@ a {
 /* Projects */
 
 .services {
-    padding-top: 151px;
+    padding: 150px 0;
     background: #121212;
     color: #fff;
 }
@@ -218,11 +241,12 @@ a {
 
 .service-list:last-child{
     margin-bottom: 0;
-    padding-bottom: 148px;
 }
 
 .service-list__img {
+    height: 100%;
     margin-bottom: 12px;
+    object-fit: cover;
 }
 
 .service-list__title {
@@ -232,11 +256,10 @@ a {
 /* Services */
 
 .full-screen {
-    margin-bottom: 186px;
-    height: 100vh;
+    height: 717px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/full-screen.jpg);
+    background-image: url(../resources/full-screen.jpg);
     background-position: 50%;
 }
 
@@ -255,6 +278,7 @@ a {
 
 /* Full screen */
 .contacts {
+    padding: 186px 0 160px 0;
 }
 
 .wrapper {
@@ -264,7 +288,6 @@ a {
 
 .contacts__wrapper {
     position: relative;
-    margin-bottom: 160px;
 }
 
 .contacts__wrapper:after {
@@ -274,7 +297,7 @@ a {
     width: 24px;
     height: 24px;
     content: '';
-    background-image: url(../images/iphone-icon.png);
+    background-image: url(../resources/iphone-icon.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -288,12 +311,13 @@ a {
     line-height: 24.59px;
     text-transform: uppercase;
 }
-.contacts__links {
+.contacts__lists {
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
 }
-.contacts__link-nubmer {
+
+.contacts__link-number {
     display: block;
     margin-bottom: 31px;
 }
@@ -318,43 +342,28 @@ a {
 /* Contacts */
 
 .footer {
-    background: #121212;
-}
-.container {
-}
-.footer__wrapper {
     padding: 58px 0 30px 0;
+    background: #121212;
     color: #fff;
 }
-.footer__lists {
+
+.footer__wrapper {
     margin-bottom: 87px;
-    text-align: center;
-    
-}
-.footer__list {
-    display: inline-block;
-    margin-right: 60px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.59px;
+    display: flex;
+    justify-content: center;
 }
 
-.footer__list:last-child {
-    margin-right: 0;
-}
-
-.footer__link {
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.footer__link:hover {
+.nav__link_transparent:hover {
     opacity: 50%;
 }
 
 .footer__text {
     text-align: center;
     opacity: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+
 }
 
 /* Footer */
